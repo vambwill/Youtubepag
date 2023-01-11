@@ -1,0 +1,73 @@
+
+
+.estructure {
+    display: flex;
+}
+
+.video {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 16px;
+}
+
+.video h3 {
+    margin: 10px 0px;
+}
+
+.inscritos {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 930px;
+    margin-bottom: 10px;
+}
+
+.avatar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 155px;
+}
+
+
+.cool, .dontLike, .compartilhar, .down {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 3px;
+}
+
+
+.inscrition {
+    border-radius: 5px;
+    height: 40px;
+    width: 159px;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.texto {
+    width: 510px;
+    height: 64px;
+    font-size: 14px;
+}
+
+
+aside {
+    width: 388px;
+    margin-right: 16px;
+    margin-top: 18px;
+}
+
+.video1 {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}

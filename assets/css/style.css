@@ -1,0 +1,69 @@
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*margin: 18px 25px;*/
+    padding: 16px 16px;
+
+}
+
+.hamburguer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 150px;
+}
+
+.hamImg {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.source {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+input {
+    width: 348px;
+    height: 40px;
+}
+
+.bol {
+    position: relative;
+    right: 40px;
+}
+
+.trace {
+    position: relative;
+    right: 43px;
+    top: 9px;
+}
+
+
+.criar {
+    position: relative;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.lente {
+    position: relative;
+    right: 16px; 
+}
+
+.bolaDoSino {
+    position: relative;
+    right: 27px;
+    top: 10px;
+}
+
+.foto {
+    border-radius: 50%;
+}
